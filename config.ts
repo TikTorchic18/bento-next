@@ -11,7 +11,7 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'Ridwan',
   openInNewTab: true,
   title: 'Bento',
 
@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'catppuccin-mocha',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // If running in docker, ensure that you have a bind mount for `./src/assets/images:/src/src/assets/images`
@@ -59,7 +59,7 @@ export const config: Config = {
   greetingMorning: 'Good morning,',
   greetingAfternoon: 'Good afternoon,',
   greetingEvening: 'Good evening,',
-  greetingNight: 'Sweet dreams,',
+  greetingNight: 'Good night,',
 
   // Layout
   layout: 'bento', // 'bento', 'lists', 'buttons'
@@ -103,43 +103,43 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        name: 'Github', // set the name of the card
-        icon: 'fab-github', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-        url: 'https://github.com/', // provide a link to the page.
+        name: 'YouTube', // set the name of the card
+        icon: 'fab-youtube', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
+        url: 'https://youtube.com/', // provide a link to the page.
+      },
+      {
+        name: 'Youtube Music',
+        icon: 'circle-play',
+        url: 'https://music.youtube.com',
+      },
+      {
+        name: 'Github',
+        icon: 'fab-github',
+        url: 'https://github.com/',
       },
       {
         name: 'Mail',
         icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
+        url: 'https://outlook.office.com/mail/',
       },
+      {
+        name: 'Canvas',
+        icon: 'paintbrush',
+        url: 'https://calendar.google.com/calendar/r',
+      },
+      {
+        name: 'EdStem',
+        icon: 'comments',
+        url: 'https://edstem.org/au/dashboard',
+      },
+    ],
+    // Second buttons group
+    // You must use the 'buttons' layout to use this group.
+    [
       {
         name: 'Todoist',
         icon: 'list-ol',
         url: 'https://todoist.com',
-      },
-      {
-        name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
-      },
-      {
-        name: 'Reddit',
-        icon: 'fab-reddit',
-        url: 'https://reddit.com',
-      },
-      {
-        name: 'Odysee',
-        icon: 'fab-youtube',
-        url: 'https://odysee.com/',
-      },
-    ],
-    // Second buttons group
-    // You muse use the 'buttons' layout to use this group.
-    [
-      {
-        name: 'Music',
-        icon: 'fab-spotify',
-        url: 'https://open.spotify.com',
       },
       {
         name: 'twitter',
@@ -175,23 +175,23 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        icon: 'music', // Icon for the list to use. The same as the buttons.
+        icon: 'fab-github', // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: 'Inspirational', // Display text for the link
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // URL to the page
+            name: 'Front', // Display text for the link
+            url: 'https://www.reddit.com/r/Frontend/', // URL to the page
           },
           {
-            name: 'Classic',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Rust',
+            url: 'https://www.reddit.com/r/rust/',
           },
           {
-            name: 'Oldies',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Go',
+            url: 'https://www.reddit.com/r/golang/',
           },
           {
-            name: 'Rock',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Repos',
+            url: 'https://github.com/migueravila',
           },
         ],
       },
@@ -218,7 +218,7 @@ export const config: Config = {
       },
     ],
     // Second list group
-    // You muse use the 'lists' layout to use this group.
+    // You must use the 'lists' layout to use this group.
     [
       {
         icon: 'house-user',
@@ -242,23 +242,23 @@ export const config: Config = {
         ],
       },
       {
-        icon: 'fab-github',
+        icon: 'music',
         links: [
           {
-            name: 'Front',
-            url: 'https://www.reddit.com/r/Frontend/',
+            name: 'Inspirational',
+            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
           },
           {
-            name: 'Rust',
-            url: 'https://www.reddit.com/r/rust/',
+            name: 'Classic',
+            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
           },
           {
-            name: 'Go',
-            url: 'https://www.reddit.com/r/golang/',
+            name: 'Oldies',
+            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
           },
           {
-            name: 'Repos',
-            url: 'https://github.com/migueravila',
+            name: 'Rock',
+            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
           },
         ],
       },
